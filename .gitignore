@@ -1,0 +1,47 @@
+# Environment and Credentials
+.env
+.env.local
+*.pem
+*.key
+serviceAccountKey.json
+*firebaseKey*.json
+credentials/
+
+# Python Caches & Virtual Environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+.pytest_cache/
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/
+
+# Data Files & Local Databases
+backend/data/experiments.json
+backend/data/*.csv
+
+# Node & Frontend
+node_modules/
+frontend/dist/
+frontend/node_modules/
+frontend/.temp/
+.eslintcache
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# IDE & OS
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
